@@ -354,7 +354,7 @@
         color:rgb(233,233,233);
         gap: 5px;
         display: grid;
-        font-family: "Motiva Sans", sans-serif;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 13px;
         font-weight: 400;
         margin: 0;
@@ -421,5 +421,5 @@
         gap:4px;
         height: 300px;
         width: 230px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
