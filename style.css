@@ -1,425 +1,493 @@
-    div#global_header{
-        min-width: 1200px; 
-        height: 104px;
-        background-color: #171D25;
-        padding: 0px 16px;
-        background-position: center top;
-    }
-    
-    div.contents{
-        margin: 0px auto ;
-        background-color: #171D25;
-        width: 940px;
-        height: 104px;
-    }
+#global_header {
+  min-width: 1200px;
+  height: 104px;
+  background-color: #171d25;
+  padding: 0px 16px;
+  background-position: center top;
+}
 
-    div.logo{
-        display: block;
-        padding-top: 30px;
-        position: absolute;
-        width: 176px;
-        height: 44px;
-        float: left;
-        margin-right: 40px;
-        font-size: 14px;
-        font-weight: 400;
-        left: 400px;
-    }
+.contents {
+  margin: 0px auto;
+  background-color: #171d25;
+  width: 940px;
+  height: 104px;
+}
 
-    div#logo_holder{
-        margin: 0;
-        padding: 0;
-        font-size: 14px;
-        font-weight: 400;
-    }
+.logo {
+  display: block;
+  padding-top: 30px;
+  position: absolute;
+  width: 176px;
+  height: 44px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  left: 400px;
+}
 
-    a{
-        text-decoration-color: rgb(255, 255, 255) ;
-        text-decoration-line: none;
-        text-decoration-style: solid;
-        text-decoration-thickness: auto;
-        display: inline;
-        margin: 0px;
-        padding: 0px;
-    }
+#logo_holder {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
 
-    div.features_container{
-        left: 600px;
-        position: absolute;
-        height: 80px;
-        width: 385px;
-    }
+a {
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
 
-    a1{
-        display: block;
-        position: relative;
-        padding: 45px 7px 7px 0px;
-        line-height: 20px;
-        float: left;
-        font-size: 16px;
-        text-transform: uppercase;
-        text-decoration: underline;
-        text-decoration-style: solid;
-        font-weight: 650;
-        color: #1a9fff;
-        font-family: Arial, Helvetica, sans-serif;    
-    }
+.features_container {
+  left: 600px;
+  position: absolute;
+  height: 80px;
+  width: 385px;
+}
 
-    a2{
-        display: block;
-        position: relative;
-        padding: 45px 7px 7px 5px;
-        line-height: 20px;
-        float: left;
-        font-size: 16px;
-        text-transform: uppercase;
-        text-decoration-style: solid;
-        font-weight: 650;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;    
-    }
+a1 {
+  display: block;
+  position: relative;
+  padding: 45px 7px 7px 0px;
+  line-height: 20px;
+  float: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  font-weight: 650;
+  color: #1a9fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    a3{
-        display: block;
-        position: relative;
-        padding: 45px 7px 7px 5px;
-        line-height: 20px;
-        float: left;
-        font-size: 16px;
-        text-transform: uppercase;
-        text-decoration-style: solid;
-        font-weight: 650;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;    
-    }
+a2 {
+  display: block;
+  position: relative;
+  padding: 45px 7px 7px 5px;
+  line-height: 20px;
+  float: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+  font-weight: 650;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    a4{
-        display: block;
-        position: relative;
-        padding: 45px 7px 7px 5px;
-        line-height: 20px;
-        float: left;
-        font-size: 16px;
-        text-transform: uppercase;
-        text-decoration-style: solid;
-        font-weight: 650;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;    
-    }
+a3 {
+  display: block;
+  position: relative;
+  padding: 45px 7px 7px 5px;
+  line-height: 20px;
+  float: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+  font-weight: 650;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    img{
-        overflow-clip-margin: content-box;
-        border-image-outset: 0;
-        border-width: 0;
-        border-style: none;
-        border-image-width: 1;
-        border-image-source: none;
-        border-image-slice: 100%;
-        border-image-repeat: stretch;
-    }
+a4 {
+  display: block;
+  position: relative;
+  padding: 45px 7px 7px 5px;
+  line-height: 20px;
+  float: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration-style: solid;
+  font-weight: 650;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    div#global_action{
-        display: block;
-        position: absolute;
-        right: 380px;
-        top:6px;
-        height: 21px;
-        font-size: 11px;
-        z-index: 401;
-    }
+img {
+  overflow-clip-margin: content-box;
+  border-image-outset: 0;
+  border-width: 0;
+  border-style: none;
+  border-image-width: 1;
+  border-image-source: none;
+  border-image-slice: 100%;
+  border-image-repeat: stretch;
+}
 
-    div.global_action_menu{
-        height: 24px;
-        width: 276px;
-        vertical-align: top;
-        line-height: 24px;
-        display: inline-block;
-    }
-    
-    a.header_install_steam{
-        color: rgb(255, 255, 255);
-        display: inline-block;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 11px;
-        font-weight: 400;
-        height: 21px;
-        line-height: 24px;
-        margin: 0px 3px 0px 0px;
-        padding: 0;
-        position: relative;
-        text-decoration-color: rgb(255, 255, 255);
-        text-decoration-line: none;
-        text-decoration-style: solid;
-        text-decoration-thickness: auto;
-        vertical-align: top;
-    }
+#global_action {
+  display: block;
+  position: absolute;
+  right: 380px;
+  top: 6px;
+  height: 21px;
+  font-size: 11px;
+  z-index: 401;
+}
 
-    div.header_install_content{
-        background-color: rgb(92, 126, 16);
-        background-image: url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
-        background-position-x: 10px;
-        background-position-y: 5px;
-        background-repeat: no-repeat;
-        color: rgb(255, 255, 255);
-        display: inline-block;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 24px;
-        margin: 0;
-        padding-left: 35px;
-        padding-right: 9px;
-    }
+.global_action_menu {
+  height: 24px;
+  width: 276px;
+  vertical-align: top;
+  line-height: 24px;
+  display: inline-block;
+}
 
-    a.global_action_link{
-        color: rgb(184, 182, 180);
-        display: inline;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 24px;
-        margin: 0;
-        padding: 0px 4px 0px 4px;
-        text-decoration-color: rgb(255, 255, 255);
-        text-decoration-line: none;
-        text-decoration-style: solid;
-        text-decoration-thickness: auto;
-    }
+a.header_install_steam {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 250;
+  height: 21px;
+  line-height: 24px;
+  margin: 0px 3px 0px 0px;
+  padding: 0;
+  position: relative;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  vertical-align: top;
+}
 
-    a.language{
-        color: rgb(184,182,180);
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 24px;
-        margin: 0px 5px 0px 0px;
-        padding: 0px 18px 0px 5px;
-        vertical-align: top;
-    }
+.header_install_content {
+  background-color: rgb(92, 126, 16);
+  background-image: url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+  background-position-x: 10px;
+  background-position-y: 5px;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 230;
+  line-height: 24px;
+  margin: 0;
+  padding-left: 35px;
+  padding-right: 9px;
+}
 
-    div#page_content{
-        background-attachment: fixed;
-        background-clip: border-box;
-        background-color: rgb(24,26,33);
-        background-image: url(https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg);
-        background-origin: border-box;
-        background-position-x: 0%, 50%, 0%;
-        background-position-y: 0%, 0%, 0%;
-        background-repeat: no-repeat;
-        background-size: auto;
-        color: rgb(233, 233, 233);
-        display: block;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
-        min-width: 1200px;
-        height: 850px;
-    }
+.global_action_link {
+  color: rgb(184, 182, 180);
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0px 4px 0px 4px;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+}
 
-    div.login_page_container{
-        color: rgb(233,233,233);
-        display: block;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 12px;
-        font-weight: 400;
-        margin: 0;
-        padding: 0;
-        min-width: 1200px;
-        height: 650px;
-    }
+.language {
+  color: rgb(184, 182, 180);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 24px;
+  margin: 0px 5px 0px 0px;
+  padding: 0px 18px 0px 5px;
+  vertical-align: top;
+}
 
-    div.login_container{
-        align-items: center;
-        color: rgb(233, 233, 233);
-        display: flex;
-        flex-direction: column;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 12px;
-        font-weight: 400;
-        padding-top: 100px;
-        padding-bottom: 150px;
-        min-width: 1200px;
-        height: 500px;
-    }
+#page_content {
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: rgb(24, 26, 33);
+  background-image: url(https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg);
+  background-origin: border-box;
+  background-position-x: 0%, 50%, 0%;
+  background-position-y: 0%, 0%, 0%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: rgb(233, 233, 233);
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  min-width: 1200px;
+  height: 850px;
+}
 
-    div.newlogin_dialog{
-        color: rgb(233, 233, 233);
-        display: flex;
-        flex-direction: column;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 12px;
-        font-weight: 400;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        width: 700px;
-        height: 350px;
-        gap: 32px;
-    }
+.login_page_container {
+  color: rgb(233, 233, 233);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  height: 650px;
+}
 
-    div.newdialog_content{
-        color: rgb(233, 233, 233);
-        display: block;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 32px;
-        font-weight: 200;
-        letter-spacing: 1.5px;
-        margin: 0;
-        padding: 0;
-        text-transform: uppercase;
-    }
+.login_container {
+  align-items: center;
+  color: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  min-width: 1200px;
+  height: 500px;
+}
 
-    div.newlogindialog{
-        background-color: rgb(24,26,33);
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-        color: rgb(233,233,233);
-        display: block;
-        flex-basis: 0%;
-        flex-grow: 1;
-        flex-shrink: 1;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 12px;
-        font-weight: 400;
-        margin: 0;
-        height: 350px;
-        min-width: 636px;
-        padding: 24px 32px 24px 32px;
-    }
+.newlogin_dialog {
+  color: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 700px;
+  height: 350px;
+  gap: 32px;
+}
 
-    div.logindialog_sidebyside{
-        color: rgb(233,233,233);
-        display: flex;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 12px;
-        font-weight: 400;
-        margin: 0;
-        padding-top: 10px;
-        width: 650px;
-        height: 310px;
-        gap:12px;
-    }
+.newdialog_content {
+  color: rgb(233, 233, 233);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
 
-    div.username_zone{
-        color:rgb(233,233,233);
-        gap:5px;
-        display: grid;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
-        font-weight: 400;
-        margin: 0;
-        padding: 0;
-        width: 400px;
-        height: 60px;
-    }
+.newlogindialog {
+  background-color: rgb(24, 26, 33);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: rgb(233, 233, 233);
+  display: block;
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  height: 300px;
+  min-width: 636px;
+  padding: 24px 32px 24px 32px;
+}
 
-    div.titleUser{
-        color: rgb(23,153,255);
-        display: block;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
-        font-weight: 500;
-        letter-spacing: 0.3px;
-        margin: 0;
-        padding: 0;
-        width: 400px;
-        height: 20px;
-    }
+.logindialog_sidebyside {
+  color: rgb(233, 233, 233);
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 10px;
+  width: 650px;
+  height: 310px;
+  gap: 8px;
+}
 
-    div.inputslot_user{
-        appearance: auto;
-        background-color: rgb(50, 53, 60);
-        border-bottom-color: rgb(50, 53, 60);
-        border-bottom-left-radius: 2px;
-        border-bottom-right-radius: 2px;
-        border-bottom-style: solid;
-        border-image-outset: 0;
-        border-image-repeat: stretch;
-        border-image-slice: 100%;
-        border-image-source: none;
-        border-image-width: 1;
-        border-left-color: rgb(50, 53, 60);
-        border-left-style: solid;
-        border-right-color: rgb(50, 53, 60);
-        border-right-style: solid;
-        border-top-color: rgb(50, 53, 60);
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
-        border-top-style: solid;
-        height: 30px;
-    }
+.loginForm {
+  display: grid;
+}
 
-    div.password_zone{
-        color:rgb(233,233,233);
-        gap: 5px;
-        display: grid;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
-        font-weight: 400;
-        margin: 0;
-        padding: 0;
-        width: 400px;
-        height: 60px;
-    }
+.username_zone {
+  color: rgb(233, 233, 233);
+  gap: 5px;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 60px;
+}
 
-    div.titlePassword{
-        color: rgb(233,233,233);
-        display: block;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 13px;
-        font-weight: 500;
-        letter-spacing: 0.3px;
-        margin: 0;
-        padding: 0;
-        width: 400px;
-        height: 20px;
-    }
+.titleUser {
+  color: rgb(23, 153, 255);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 20px;
+}
 
-    div.inputslot_password{
-        appearance: auto;
-        background-color: rgb(50, 53, 60);
-        border-bottom-color: rgb(50, 53, 60);
-        border-bottom-left-radius: 2px;
-        border-bottom-right-radius: 2px;
-        border-bottom-style: solid;
-        border-image-outset: 0;
-        border-image-repeat: stretch;
-        border-image-slice: 100%;
-        border-image-source: none;
-        border-image-width: 1;
-        border-left-color: rgb(50, 53, 60);
-        border-left-style: solid;
-        border-right-color: rgb(50, 53, 60);
-        border-right-style: solid;
-        border-top-color: rgb(50, 53, 60);
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
-        border-top-style: solid;
-        height: 30px;
-    }
+.inputslot_user {
+  appearance: auto;
+  background-color: rgb(50, 53, 60);
+  border-bottom-color: rgb(50, 53, 60);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(50, 53, 60);
+  border-left-style: solid;
+  border-right-color: rgb(50, 53, 60);
+  border-right-style: solid;
+  border-top-color: rgb(50, 53, 60);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  height: 30px;
+}
 
-    div.submittedbutton{
-        appearance: auto;
-        position: relative;
-        background: linear-gradient(90deg,#06BFFF 0%, #2D73FF 100%);
-        border-radius: 2px;
-        border: none;
-        outline: none;
-        padding: 12px;
-        color: #fff;
-        font-size: 16px;
-        font-weight: 400;
-        font-family: inherit;
-        text-align: center;
-        width: 270px;
-    }
+.password_zone {
+  color: rgb(233, 233, 233);
+  gap: 5px;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 60px;
+}
 
-    div.QR{
-        color: rgb(233,233,233);
-        display: grid;
-        gap:4px;
-        height: 300px;
-        width: 230px;
-        margin-left: 20px;
-    }
+.titlePassword {
+  color: rgb(233, 233, 233);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 20px;
+}
+
+.inputslot_password {
+  appearance: auto;
+  background-color: rgb(50, 53, 60);
+  border-bottom-color: rgb(50, 53, 60);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(50, 53, 60);
+  border-left-style: solid;
+  border-right-color: rgb(50, 53, 60);
+  border-right-style: solid;
+  border-top-color: rgb(50, 53, 60);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  height: 30px;
+}
+
+.submittedbutton {
+  appearance: auto;
+  position: relative;
+  background: linear-gradient(90deg, #06bfff 0%, #2d73ff 100%);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  width: 270px;
+}
+
+.QR {
+  color: rgb(233, 233, 233);
+  display: grid;
+  gap: 4px;
+  height: 300px;
+  width: 230px;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+
+.focuscheck {
+  display: block;
+  height: 20px;
+}
+
+.checkBoxField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+}
+
+.checkBox {
+  width: 14px;
+  height: 14px;
+  padding: 3px;
+  border-radius: 2px;
+  background-color: #32353c;
+}
+
+.checkField_label {
+  color: #afafaf;
+  font-size: 15px;
+  user-select: none;
+  padding-left: 6px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+}
+
+.text_forgot {
+  text-align: center;
+  color: #afafaf;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.QR_fieldLable {
+  color: #1999ff;
+  font-weight: 50;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.QRholder {
+  border-radius: 2px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  width: 212px;
+  height: 212px;
+  background-color: white;
+}
+
+.QR_logindialog{
+    text-align: center;
+    font-size: 14px;
+    color: #afafaf;
+}
